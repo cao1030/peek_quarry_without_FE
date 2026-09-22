@@ -1,0 +1,37 @@
+# PEEK Quarry - en_US
+# §a is the vanilla colour code for green. The lang file is UTF-8 and .lang has no
+# \u escapes, so the section sign has to be a literal U+00A7.
+tile.peek_quarry.ender_touch.name=§aEnder's Touch
+
+# Ender's Touch chunk scan GUI.
+# Only ASCII here on purpose: arrows / multiplication signs are not in MC's default
+# ASCII glyph sheet and would only draw once a unicode font page is loaded.
+gui.peek_quarry.ender_touch.title=Ender's Touch - Chunk Scan
+gui.peek_quarry.ender_touch.radius=Chunk radius
+gui.peek_quarry.ender_touch.coverage=Range %sx%s = %s chunks
+gui.peek_quarry.ender_touch.confirm=Scan
+gui.peek_quarry.ender_touch.cancel=Cancel
+gui.peek_quarry.ender_touch.sort_desc=Count high-low
+gui.peek_quarry.ender_touch.sort_asc=Count low-high
+gui.peek_quarry.ender_touch.search_hint=Name or pinyin
+gui.peek_quarry.ender_touch.status.idle=Ready. Press Scan to start.
+gui.peek_quarry.ender_touch.status.scanning=Scanning %s/%s chunks
+gui.peek_quarry.ender_touch.status.done=Done, %s types / %s blocks
+gui.peek_quarry.ender_touch.status.cancelled=Cancelled at %s/%s chunks, results incomplete
+gui.peek_quarry.ender_touch.status.extracting=Extracting %s/%s chunks
+gui.peek_quarry.ender_touch.empty=No matching blocks
+gui.peek_quarry.ender_touch.total=%s total
+gui.peek_quarry.ender_touch.hint.middle=Middle click: extract into container
+
+# Right-hand container sidebar (read only)
+gui.peek_quarry.ender_touch.sidebar=Container
+gui.peek_quarry.ender_touch.sidebar.empty=Empty
+
+# Amount popup
+gui.peek_quarry.ender_touch.popup.avail=%s available
+gui.peek_quarry.ender_touch.popup.all=All
+gui.peek_quarry.ender_touch.popup.confirm=Extract
+gui.peek_quarry.ender_touch.popup.cancel=Cancel
+gui.peek_quarry.ender_touch.popup.bad=Enter a positive number
+gui.peek_quarry.ender_touch.popup.toomany=At most %s
+gui.peek_quarry.ender_touch.popup.warn=Warning: these blocks are removed from the world

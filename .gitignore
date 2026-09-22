@@ -1,0 +1,35 @@
+# ---- Gradle ----
+.gradle/
+build/
+out/
+
+# ---- 发行产物（作为 GitHub Release 附件上传，不入库）----
+dist/
+
+# ---- RFG / 开发运行目录 ----
+run/
+runs/
+.eclipse/
+*.hprof
+
+# ---- IDE ----
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# ---- 本地依赖 jar（体积大，不建议入库）----
+libs/*.jar
+
+# ---- 机器相关配置（JDK 路径等，见 README「本地开发环境」）----
+local.env.bat
+gradle.local.properties
+
+# ---- 日志 ----
+*.log
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini

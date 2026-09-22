@@ -1,0 +1,37 @@
+# PEEK Quarry - zh_CN
+# 方块名用 §a（原版颜色码）染成绿色。语言文件是 UTF-8，§ 就是 U+00A7 本身，
+# .lang 不支持 \u 转义，必须写字面量。
+tile.peek_quarry.ender_touch.name=§a末影之触
+
+# 末影之触 区块扫描 GUI
+# 注意：这里只用了 ASCII 和汉字。箭头/乘号/中点这类字符不在 MC 默认 ASCII 字形里，
+# 只有加载了 unicode 字体页才画得出来，所以一律避开。
+gui.peek_quarry.ender_touch.title=末影之触 区块扫描
+gui.peek_quarry.ender_touch.radius=区块半径
+gui.peek_quarry.ender_touch.coverage=范围 %sx%s = %s 区块
+gui.peek_quarry.ender_touch.confirm=确认扫描
+gui.peek_quarry.ender_touch.cancel=取消
+gui.peek_quarry.ender_touch.sort_desc=数量 多到少
+gui.peek_quarry.ender_touch.sort_asc=数量 少到多
+gui.peek_quarry.ender_touch.search_hint=搜索方块名或拼音
+gui.peek_quarry.ender_touch.status.idle=就绪，点确认扫描开始
+gui.peek_quarry.ender_touch.status.scanning=扫描中 %s/%s 区块
+gui.peek_quarry.ender_touch.status.done=完成，共 %s 种 / %s 个方块
+gui.peek_quarry.ender_touch.status.cancelled=已取消 %s/%s 区块，结果不完整
+gui.peek_quarry.ender_touch.status.extracting=提取中 %s/%s 区块
+gui.peek_quarry.ender_touch.empty=没有匹配的方块
+gui.peek_quarry.ender_touch.total=合计 %s 个
+gui.peek_quarry.ender_touch.hint.middle=中键：提取到容器
+
+# 右侧容器侧边栏（只读）
+gui.peek_quarry.ender_touch.sidebar=容器
+gui.peek_quarry.ender_touch.sidebar.empty=空
+
+# 数量选择弹窗
+gui.peek_quarry.ender_touch.popup.avail=可提取 %s
+gui.peek_quarry.ender_touch.popup.all=全部
+gui.peek_quarry.ender_touch.popup.confirm=确认提取
+gui.peek_quarry.ender_touch.popup.cancel=取消
+gui.peek_quarry.ender_touch.popup.bad=请输入正整数
+gui.peek_quarry.ender_touch.popup.toomany=最多 %s 个
+gui.peek_quarry.ender_touch.popup.warn=注意：这些方块会从世界里被挖掉
